@@ -151,7 +151,7 @@ a[href="login.html"]{
 }
 
 .welcome-banner-container{
-    background-image: url("../asset_responsive/bgmain5.svg");
+    background-image: url("./asset_responsive/bgmain5.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -239,7 +239,7 @@ a[href="login.html"]{
 
     top: 625px;
 
-    background-image: url("../asset_login/Vector2.svg"), url("../asset_login/Vector1.svg");
+    background-image: url("./asset_login/Vector1.svg"), url("./asset_login/Vector2.svg");
     background-position: left bottom 0%, right bottom 0%;
     background-repeat: no-repeat, no-repeat;
     background-size: contain;
@@ -282,7 +282,7 @@ a[href="login.html"]{
 .emak2{
     flex-basis: 90%;
     
-    background-image: url("../asset_responsive/emak2.svg");
+    background-image: url("./asset_responsive/emak2.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -312,7 +312,7 @@ a[href="login.html"]{
 .abangOjol{
     flex-basis: 90%;
    
-    background-image: url("../asset_responsive/abang-OJOL.svg");
+    background-image: url("./asset_responsive/abang-OJOL.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -340,7 +340,7 @@ a[href="login.html"]{
 .food{
     flex-basis: 90%;
     
-    background-image: url("../asset_responsive/Food.svg");
+    background-image: url("./asset_responsive/Food.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -360,7 +360,7 @@ a[href="login.html"]{
 
 .deliver-everywhere-container{
 
-    background-image: url("../asset_responsive/vector3.svg");
+    background-image: url("./asset_responsive/vector3.svg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -392,7 +392,7 @@ a[href="login.html"]{
 .blue_man-img{
    
 
-    background-image: url("../asset_responsive/Blue_man.svg");
+    background-image: url("./asset_responsive/Blue_man.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -483,7 +483,7 @@ a[href="login.html"]{
 
 .mitra-kami-container{
 
-    background-image: url("../asset_responsive/vector4.svg");
+    background-image: url("./asset_responsive/vector4.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -558,7 +558,7 @@ a[href="login.html"]{
 .mitra-img{
     
 
-    background-image: url("../asset_responsive/two-business-men-shaking-hands\ 1.svg");
+    background-image: url("./asset_responsive/two-business-men-shaking-hands\ 1.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

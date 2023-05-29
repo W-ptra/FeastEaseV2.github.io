@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style_menu-list_responsive.css" /><!-- link file css "style_main.css" -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"><!-- link google API untuk pake font 'Inter' -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- link google API untuk pake font 'Inter' -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"><!-- link google API untuk pake font 'Inter' -->
+        <link rel="icon" href="./asset_login/FE_logo.svg" type="svg">
+
+        <script src="script.js"></script>
+        <title>FeastEase</title>
+    </head>
+
+    <body>
+        
+        <div class="header-container" >
+
+            <div class="header-sub_container1" >
+
+                <div class="header-FeastEase">
+
+                    <a href="index.html">
+                        <div class="FeastEase">
+                            <span class="Feast" >Feast</span><span class="Ease" >Ease</span>
+                        </div>
+                    </a>
+                    
+                    
+                </div>
+                
+                <div class="header-search_bar">
+                    <input type="text" placeholder="Mau cari menu apa?">
+                </div>
+                
+                
+            </div>
+            
+            <div class="header-sub_container2" >
+                <div class="download-app-header" >
+                    <img src="./asset_responsive/Download.svg" alt="download app">
+                </div>
+                
+                <div class="your-cart-header" >
+                    <a href="checkout.html">
+                        <img src="./asset_responsive/Cart.svg" alt="cart">
+                    </a>
+                </div>
+    
+                <div class="news-header" >
+                    <img src="./asset_responsive/News.svg" alt="news">
+                </div>
+                
+                <div class="account-header" >
+                    <div class="account-dropdown" >
+                        <a href="login.html">
+                            <img src="./asset_responsive/Account.svg" alt="account">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="place_time-container">
+
+            <div class="place_time-sub_container1" >
+                <div class="centerize1">
+                    <div class="lokasi">
+
+                        <div class="lokasi_content">
+                            Semarang Barat
+                        </div>
+                        
+                        <div class="lokasi_dropdown">
+                            <img src="./asset_responsive/drop down.svg" alt="dropdown">
+                        </div>
+
+                    </div>
+
+                    <div class="lunch_dinner">
+                        <div class="lunch">
+                            <button class="button_lunch">Lunch Time</button>
+                        </div>
+                        <div class="dinner">
+                            <button class="button_dinner">Dinner Time</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="place_time-sub_container2" >
+                <div class="centerize">
+                    
+                    <div class="tanggal1">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Sab <br>
+                                1
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal1">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Min <br>
+                                2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal1">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Sen <br>
+                                3
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal1">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Sel <br>
+                                4
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal1">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Rab <br>
+                                5
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal1">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Kam <br>
+                                6
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal hidden" id="element-to-remove">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Jum <br>
+                                7
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal hidden" id="element-to-remove">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Sab <br>
+                                8
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal hidden" id="element-to-remove">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Min <br>
+                                9
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal hidden" id="element-to-remove">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Sen <br>
+                                10
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal hidden" id="element-to-remove">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Sel <br>
+                                11
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal hidden" id="element-to-remove">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Rab <br>
+                                12
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal hidden" id="element-to-remove">
+                        <div class="tanggal_content">
+                            <div class="helper_container">
+                                Kam <br>
+                                13
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tanggal1">
+                        <div class="tanggal_content">
+                            <div class="helper_containerK">
+                               <img src="./asset_responsive/drop down.svg" alt="drop down point right">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-container">
+            
+            <div class="banner">
+                <div class="center1">
+                    <div class="banner-img">
+                        <img src="./asset_responsive/ojolGendut.svg" alt="ojol gendut">
+                    </div>
+                    <div class="helper">
+                        <div class="banner-title">
+                            Are you hungry? <br>
+                            Call us Baby!
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="menu-content-container">
+                <div class="center2">
+                    <div class="sub_contaienr-left">
+                        <div class="divided">
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/ayam krispy.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Ayam Krispy</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            15.2k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/ayam bakar.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Ayam Bakar</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            12k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/nasi goreng.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Nasi Goreng</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            12k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content element-to-delete gone">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/sate ayam.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Sate Ayam</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            19k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="divided">
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/baso sapi.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Bakso Sapi</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            14.5k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/mie ayam.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Mie Ayam</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            12k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/indomie.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Indomie</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            7k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content element-to-delete gone">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/nasi padang.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Nasi Padang</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            12.5k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="sub_contaienr-right">
+            
+                        <div class="further">
+                            <div class="further_sub-container">
+                                <div class="lihat_Menu_lainnya">
+                                    Lihat Menu <br>
+                                    lainnya
+                                </div>
+                                <div class="lingkaran_arrow">
+                                    <img src="./asset_responsive/drop down.svg" alt="drop down lihat menu lainnya">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="menu-container">
+            
+            <div class="banner background-chef">
+                <div class="center1">
+                    <div class="banner-img-gone">
+                       
+                    </div>
+                    <div class="helper1">
+                        <div class="title-chef">
+                            Savor the flavors crafted <br>
+                            by our chef
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="menu-content-container">
+                <div class="center2">
+                    <div class="sub_contaienr-left">
+                        <div class="divided">
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/gulai kambing kolesterol.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">gulai kambing</span><br>
+                                        <span class="bawah">kolesterol</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            32.7k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/nilai bakar jimbaran.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Nila Bakar</span><br>
+                                        <span class="bawah">Jimbaran</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            17k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/kue pastel.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Kue Pastel</span><br>
+                                        <span class="bawah">Ya kue lah</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            5k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content element-to-delete gone">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/sapi lada nigga.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Sapi Lada Hitam</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            31k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="divided">
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/ayam mentega.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Ayam Mentega</span><br>
+                                        <span class="bawah">Gurih Gurih</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            24.3k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/mentai.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Mentai</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            10k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/samcan goreng haram enak.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Samcan Goreng</span><br>
+                                        <span class="bawah">!!HARAM!!</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            25k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content element-to-delete gone">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/nasi bakar.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Nasi Bakar</span><br>
+                                        <span class="bawah">Tidak Haram</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            15k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="sub_contaienr-right">
+            
+                        <div class="further">
+                            <div class="further_sub-container">
+                                <div class="lihat_Menu_lainnya">
+                                    Lihat Menu <br>
+                                    lainnya
+                                </div>
+                                <div class="lingkaran_arrow">
+                                    <img src="./asset_responsive/drop down.svg" alt="drop down lihat menu lainnya">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="menu-container">
+            
+            <div class="banner background-sehat">
+                <div class="center1">
+                    <div class="banner-img-gone">
+                       
+                    </div>
+                    <div class="helper1">
+                        <div class="title-chef">
+                            Fresh, Healthy, and<br>
+                            delicous
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="menu-content-container">
+                <div class="center2">
+                    <div class="sub_contaienr-left">
+                        <div class="divided">
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/ayam krispy.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Ayam Krispy</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            15.2k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/ayam bakar.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Ayam Bakar</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            12k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/nasi goreng.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Nasi Goreng</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            12k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content element-to-delete gone">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/sate ayam.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Sate Ayam</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            19k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="divided">
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/baso sapi.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Bakso Sapi</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            14.5k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/mie ayam.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Mie Ayam</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            12k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/indomie.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Indomie</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            7k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-content element-to-delete gone">
+                                <div class="gambar-makanan">
+                                    <img src="./asset_responsive/menu makanan/nasi padang.svg" alt="ayam krispy">
+                                </div>
+                                <div class="info-makanan">
+                                    <div class="sisi_kanan">
+                                        <span class="atas">Nasi Padang</span><br>
+                                        <span class="bawah">Lorem ipsum</span>
+                                    </div>
+                                    <div class="sisi_kiri">
+                                        <span class="atas">
+                                            12.5k
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="sub_contaienr-right">
+            
+                        <div class="further">
+                            <div class="further_sub-container">
+                                <div class="lihat_Menu_lainnya">
+                                    Lihat Menu <br>
+                                    lainnya
+                                </div>
+                                <div class="lingkaran_arrow">
+                                    <img src="./asset_responsive/drop down.svg" alt="drop down lihat menu lainnya">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-container">
+
+            <div class="footer-sub_container1">
+                <div class="footer-element1">
+                    <div class="FE_footer">
+                        <div class="FeastEase FeastEase-footer">
+                            <span class="Feast" >Feast</span><span class="Ease" >Ease</span><br>
+                        </div>
+                    
+                        <div class="FE_content_footer">
+                            Dibuat dari <span class="bold_element">cinta</span><br>
+                            oleh <span class="bold_element">cinta</span><br>
+                            untuk<span class="bold_element">cinta</span><br>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-sub_container2">
+                <div class="footer-element2">
+                    <div class="kantor_pusat_footer">
+                        <span class="bold_element">Kantor Pusat</span><br>
+                        jalan aja dulu 01,ngawi timur,<br>
+                        jawa manis 69696 <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-sub_container3">
+                <div class="footer-element3">
+                    <div class="kantor_pusat_footer">
+                        <span class="bold_element">Partner</span><br>
+                        Gijik<br>
+                        Grib<br>
+                        Tikipidiyi <br>
+                        Jenderal Pajak Rubicon <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-sub_container4">
+                <div class="footer-element4">
+                    <div class="kantor_pusat_footer">
+                        <span class="bold_element">Hubungi Kami</span><br>
+                        +62 345 6785 1011<br>
+                        0858 yang lain kapan kapan <br>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>

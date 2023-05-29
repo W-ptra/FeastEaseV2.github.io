@@ -1,0 +1,662 @@
+/*
+    Global element
+*/
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.bold{
+    font-weight: 1000;
+}
+a[href="login.html"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+    Header
+*/
+
+.container-header{
+    z-index: 10;
+    position: fixed;
+    display: flex;
+
+    background-color:white;
+    margin: 0px;
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    margin-top: 0px;
+    
+    min-height: 65px;
+    justify-content: center;
+
+    border-bottom: 1px solid black;
+}
+.header-sub_container1{
+    flex-grow: 0;
+    font-size: 40px;
+    display: flex;
+
+    font-family: 'Inter',sans-serif;
+    font-size: 3.5vw;
+    
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 1px;
+
+    flex-grow: 0;
+    flex-basis: 80%;
+
+    max-height: 70px;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Feast-header{
+    font-weight: 100;
+    color: #44B250;
+}
+.Ease-header{
+    font-weight: 1000;
+    color: #44B250;
+}
+
+.header-sub_container2{
+    flex-grow: 0;
+    flex-basis: 20%;
+    flex-direction: column;
+
+    display: flex;
+
+    max-height: 90px;
+
+    margin-bottom: 5px;
+
+    margin-top: 14px;
+}
+
+.header-sub_container2 div{
+    flex-grow: 0;
+    display: flex;
+    
+    flex-basis: 25%;
+    margin-right: 1px;
+
+    justify-content: center;
+}
+
+.account-header{
+    border-left: 1px solid black;
+}
+
+.header-sub_container2 img[alt="account"]{
+    
+
+    max-width: 80px;
+    max-height: 50px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+}
+
+/* 
+    Tombol dan label back ke menu
+*/
+.kembali_ke_menu{
+    z-index: 1;
+    display: flex;
+    left: 0px;
+    right: 0px;
+    height: 10vh;
+    background-color: white;
+    margin-top: 65px;
+}
+    .cover{
+        display: flex;
+        flex-grow: 0;
+        
+        margin-left: 4vw;
+        width: 30vw;
+    }
+        .dropdown_back{
+            display: flex;
+            align-items: center;
+            flex-basis: 30%;
+            
+            justify-content: center;
+        }
+        .label_back_container{
+            display: flex;
+            flex-basis: 70%;
+            
+            align-items: center;
+        }
+        .label_back{
+            flex-basis: 100%;
+            text-align: start;
+            font-family: 'Inter',sans-serif;
+            
+            color: #44B250;
+            font-size: 2.1vw;
+            flex-basis: 100%;
+        }
+/*
+    Main Content
+*/
+
+.main-container{
+    display: flex;
+    height: 120vh;
+    
+    margin-top: 10px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 30px;
+}
+    .sub-container1{
+        display: flex;
+        flex-basis: 65%;
+        
+        flex-direction: column;
+        margin-right: 30px;
+    }
+/*  Kerangjang alamat pengantar dan informasi penerima */
+
+        .keranjang_alamat{
+            display: flex;
+            flex-basis: 30%;
+            background-color: white;
+            flex-direction: column;
+            font-family: 'Inter',sans-serif;
+        }
+
+            .cover-keranjang{
+                display: flex;
+                flex-basis: 20%;
+                
+            }
+                .keranjang{
+                    font-size: 1.5vw;
+                    text-decoration: underline;
+                }
+            .cover-alamat_penerima{
+                display: flex;
+                flex-basis: 15%;
+                
+            }
+                .alamat_penerima{
+                    font-size:1.2vw;
+                }
+            .cover-informasi_diri{
+                display: flex;
+                flex-basis: 45%;
+                
+                line-height: 1.4;
+            }
+                .dimas{
+                    font-size: 1vw;
+                }
+                .hp_alamat{
+                    font-size: 1vw;
+                }
+            .cover-catatan{
+                display: flex;
+                flex-basis: 20%;
+                
+                align-items: center;
+            }
+                .catatan-titip_satpam{
+                    align-items: center;
+                    display: flex;
+                    
+                    border: 1px solid black;
+                    border-radius: 10px;
+                }
+                    .cover_img{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 20px;
+                    }
+                    img[alt="catatan img"]{
+                        width: 3.2vw;
+                        height: 3.2vh;
+                    }
+                    .tambah_catatan{
+                        display: flex;
+                        height: 5vh;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+                    .center_1{
+                        font-size: 1vw;
+                        margin-right: 20px;
+                        margin-left: 20px;
+                    }
+/* pesanan katering item gambar makanan */
+
+        .pesanan_items{
+            display: flex;
+            flex-basis: 70%;
+            background-color: white;
+            flex-direction: column;
+            font-family: 'Inter',sans-serif;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            margin-top: 20px;
+        }
+            .title_pesanan{
+                display: flex;
+                flex-basis: 10%;
+                
+            }
+                .pesan_catering{
+                    display: flex;
+                    flex-basis: 60%;
+                   
+                    align-items: center;
+                    font-size: 1.5vw;
+                }
+                .tambah_menu{
+                    display: flex;
+                    flex-basis: 40%;
+                    border: 1px solid black;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 50px;
+                    margin-right: 0px;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                    border-radius: 10px;
+                }
+                    .coveran{
+                        font-size: 1vw;
+                        margin: 5px;
+                        text-align: center;
+                    }   
+            .total_3_items{
+                display: flex;
+                flex-basis: 5%;
+                
+                font-size: 1.4vw;
+            }
+            .hari_tgl{
+                display: flex;
+                flex-basis: 10%;
+                
+                line-height: 1.5;
+                font-size: 1.2vw;
+            }
+            .sapi_lada{
+                display: flex;
+                flex-basis: 25%;
+                
+                flex-direction: row;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+                .gambar{
+                    display: flex;
+                    flex-basis: 30%;
+                    
+                    flex-grow: 0;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    img[alt="sapi lada"]{
+                        flex-grow: 0;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 20px;
+                    }
+                .informasi-gambar{
+                    flex-basis: 30%;
+                    
+                    display: flex;
+                }
+                    .center_info{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        line-height: 1.5;
+                        margin-left: 5px;
+                    }
+                        .satusatu{
+                            font-size: 1.4vw;
+                        }
+                        .sendirian{
+                            font-size: 1.4vw;
+                        }
+                .sampah{
+                    flex-basis: 40%;
+                    
+                    flex-grow: 0;
+                    display: flex;
+                    flex-direction: column-reverse;
+                }
+                    .bawah{
+                        display: flex;
+                        
+                        flex-grow: 0;
+                        flex-direction: row;
+                    }
+                        .tong_sampah{
+                            display: flex;
+                            
+                            justify-content: center;
+                            align-items: center;
+                        }
+                            img[alt="tong sampah"]{
+                                width: 4vw;
+                                height: 4vh;
+                            }
+                        .minus{
+                            display: flex;
+                            
+                            justify-content: center;
+                            align-items: center;
+                        }
+                            img[alt="minus"]{
+                                width: 4vw;
+                                height: 4vh;
+                            }
+                        .satu{
+                            display: flex;
+                            
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 1.5vw;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+                        .plus{
+                            display: flex;
+                            
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        img[alt="plus"]{
+                            width: 4vw;
+                            height: 4vh;
+                        }
+    .bemper_belakang{
+        margin-bottom: 30px;
+    }
+
+/*
+    Kotak confirm bayar
+*/
+
+    .sub-container2{
+        display: flex;
+        flex-basis: 35%;
+        flex-direction: column;
+    }
+        .cover_bayar{
+            display: flex;
+            border: 1px solid black;
+            height: 55vh;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+        }
+        .cover_center{
+            display: flex;
+            
+            width: 28vw;
+            height: 45vh;
+            flex-direction: column;
+            font-family: 'Inter',sans-serif;
+        }
+            .cover_tambah_hemat{
+                display: flex;
+                border: 0.5px solid black;
+                flex-direction: row;
+                flex-basis: 25%;
+                border-radius: 15px;
+            }
+                .hemat_kiri{
+                    display: flex;
+                    
+                    flex-basis: 10%;
+                    justify-content: center;
+                    align-items:center;
+                }
+                    img[alt="persen"]{
+                        width: 3vw;
+                        height: 3vh;
+                    }
+                .hemat_tengah{
+                    display: flex;
+                    margin-top: 7px;
+                    flex-basis: 80%;
+                    flex-direction: column;
+                    margin-bottom: 5px;
+                }
+                    .tengah_atas{
+                        display: flex;
+                        
+                        flex-basis: 40%;
+                        font-size: 1.2vw;
+                    }
+                    .tengah_bawah{
+                        display: flex;
+                        
+                        flex-basis: 60%;
+                        font-size: 1vw;
+                    }
+                .hemat_kanan{
+                    display: flex;
+                    
+                    flex-basis: 10%;
+                    justify-content: center;
+                    align-items:center ;
+                }
+                img[alt="promo panah"]{
+                    width: 3vw;
+                    height: 3vh;
+                    transform: rotate(-90deg);
+                }
+            .cover_ringkasan{
+                display: flex;
+                margin-top: 15px;
+                flex-direction: column;
+                flex-basis: 55%;
+                margin-left: 2px;
+            }
+                .title_ringkasan{
+                    display: flex;
+                    
+                    flex-basis: 20%;
+                    font-size: 1.4vw;
+                }
+                .detail_ringkasan{
+                    display: flex;
+                    
+                    flex-basis: 50%;
+                    font-size: 1.1vw;
+                }
+                    .detail_kiri{
+                        margin-right: 5vw;
+                    }
+                    .detail_kanan{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        justify-content: center;
+                    }
+                .total_harga{
+                    display: flex;
+                    
+                    flex-basis: 30%;
+                    font-size: 1.3vw;
+                }
+                    .harga_total{
+                        margin-right: 10.1vw;
+                    }
+            .cover_lanjut_bayar{
+                display: flex;
+                
+                flex-direction: row;
+                flex-basis: 20%;
+                justify-content: center;
+            }
+            .lanjut_bayar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #44B250;
+                flex-basis: 100%;
+                border-radius: 10px;
+                border: white;
+                color: white;
+                cursor: pointer;
+            }
+            .lanjut_bayar:hover{
+                
+                background-color: white;
+                border: 2px solid #44B250;
+                color: #44B250;
+            }
+                .content_bayar{
+                    text-align: center;
+                    font-family: 'Inter',sans-serif;
+                    font-size: 1.5vw;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+
+
+
+
+@media (max-width:700px) {
+    .header-sub_container1{
+        font-size: 6vw;
+    }
+    .kembali_ke_menu{
+        height: 8vh;
+    }
+    .cover{
+        width: 50vw;
+    }
+    .label_back{
+        font-size: 4vw;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+        .sub-container1{
+            margin-right: 0px;
+            flex-basis: 80%;
+            margin-bottom: 5vh;
+        }
+        .sub-container2{
+            flex-basis: 20%;
+            height: 10vh;
+        }
+        .keranjang_alamat{
+            margin-bottom: 5vh;
+        }
+        .informasi_diri{
+            margin-bottom: 2vh;
+        }
+
+            .cover_center{
+                flex-basis: 100%;
+                margin: 30px;
+            }
+            .cover-keranjang{
+                margin-bottom: 4vh;
+            }
+                .keranjang{
+                    font-size: 3vw;
+                }
+            .cover-alamat_penerima{
+                margin-bottom: 3vh;
+            }
+                .alamat_penerima{
+                    font-size: 2.5vw;
+                }
+            .cover-catatan{
+                justify-content: center;
+            }
+                .dimas{
+                    font-size: 2vw;
+                }
+                .hp_alamat{
+                    font-size: 1.8vw;
+                }
+            .catatan-titip_satpam{
+                flex-basis: 100%;
+            }
+                .center_1{
+                    font-size: 1.8vw;
+                }
+                .coveran{
+                    font-size: 1.8vw;
+                }
+                .tambah_menu{
+                    margin-bottom: 0px;
+                    margin-left: 0px;
+                }
+                .pesan_catering{
+                    font-size: 2.6vw;
+                }
+                .total_3_items{
+                    font-size: 2.5vw;
+                }
+                .hari_tgl{
+                    font-size: 2vw;
+                }
+                .satusatu{
+                    font-size: 2vw;
+                }
+                .sendirian{
+                    font-size: 1.8vw;
+                }
+            .bawah{
+                flex-direction: row-reverse;
+            }
+                .tong_sampah{
+                    order: 1;
+                }
+                .tengah_atas{
+                    font-size: 2vw;
+                }
+                .tengah_bawah{
+                    font-size: 1.5vw;
+                }
+                .title_ringkasan{
+                    font-size: 2vw;
+                }
+                .detail_kiri{
+                    font-size: 1.7vw;
+                }
+                .detail_kanan{
+                    margin-left: 45vw;
+                    font-size: 1.7vw;
+                    text-align: end;
+                }
+                .harga_total{
+                    margin-right: 45vw;
+                    font-size: 3vw;
+                }
+                .nominal{
+                    font-size: 3vw;
+                }
+}

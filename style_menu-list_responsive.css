@@ -20,6 +20,7 @@ body{
 
 a{
     text-decoration: none;
+    display: flex;
 }
 
 a[href="checkout.html"]{

@@ -51,6 +51,17 @@ table {
 
 /* box */
 
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img[alt="account"]{
+    align-items: center;
+    display: flex;
+    
+}
+
 .inputBox{
     z-index: 5;
     position: absolute;

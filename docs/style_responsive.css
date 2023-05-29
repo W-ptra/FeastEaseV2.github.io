@@ -1,0 +1,1012 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*      Header    Header    Header      Header      Header */
+.container-header{
+    z-index: 10;
+    position: fixed;
+    display: flex;
+
+    background-color:white;
+    margin: 0px;
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    min-height: 65px;
+    justify-content: center;
+
+    border-bottom: 1px solid black;
+}
+.header-sub_container1{
+    flex-grow: 0;
+    font-size: 40px;
+    display: flex;
+
+    font-family: 'Inter',sans-serif;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 1px;
+
+    flex-grow: 0;
+    flex-basis: 39%;
+
+    max-height: 70px;
+    
+}
+
+.Feast-header{
+    font-weight: 100;
+    color: #44B250;
+}
+.Ease-header{
+    font-weight: 1000;
+    color: #44B250;
+}
+
+.header-sub_container2{
+    flex-grow: 0;
+    flex-basis: 61%;
+    flex-direction: column;
+
+    display: flex;
+    flex-direction: row;
+
+    max-height: 90px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header-sub_container2 div{
+    flex-grow: 0;
+    display: flex;
+    
+    flex-basis: 25%;
+    margin-right: 1px;
+
+    justify-content: center;
+}
+
+.header-sub_container2 img[alt="download app"]{
+    max-width: 120px;
+    max-height: 100px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+}
+
+a[href="checkout.html"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a[href="login.html"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-sub_container2 img[alt="cart"]{
+    max-width: 90px;
+    max-height: 60px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header-sub_container2 img[alt="news"]{
+    max-width: 80px;
+    max-height: 50px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.account-header{
+    border-left: 1px solid black;
+}
+
+.header-sub_container2 img[alt="account"]{
+    
+
+    max-width: 80px;
+    max-height: 50px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+/*                       welcome banner                   !!!!!!!!*/
+
+
+.welcome-banner-container {
+    display: flex;
+    position: absolute;
+    
+    background-color: red;
+    margin: 0;
+    
+    top: 65px; 
+    left: 0;
+    right: 0;
+    
+    min-height: 500px;
+}
+
+.welcome-banner-container{
+    background-image: url("../asset_responsive/bgmain5.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    flex-grow: 0;
+    
+    left: 0px;
+    right: 0px;
+}
+
+
+.welcome-banner-sub_container{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+
+    
+    justify-content: center;
+}
+.FeastEase-welcome-banner{
+    font-family: 'Inter',sans-serif;
+    
+    color: white;
+    
+    margin-left: 20%;
+
+    
+}
+.F-welcomer{
+    line-height: 1.5;
+    font-size: 35px;
+    font-weight: 400;
+}
+.E-welcome{
+    line-height: 1.5;
+    font-size: 35px;
+    font-weight: 1000;
+}
+.FT-welcome{
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+/*                   easy way to use title                */
+
+.easy-way-title-container{
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+
+    background-color: white;
+
+    left: 0;
+    right: 0;
+
+    top: 560px;
+    min-height: 50px;
+}
+.easy-way-title{
+    font-size: 30px;
+    font-family: 'Inter',sans-serif;
+
+    color: black;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+/*             easy way to use content            */
+
+.easy-way-content-container{
+    position: absolute;
+    display: flex;
+    
+    justify-content: center;
+
+    
+
+    background-color: white;
+    min-height: 400px;
+
+    left: 0;
+    right: 0;
+
+    top: 625px;
+
+    background-image: url("../asset_login/Vector2.svg"), url("../asset_login/Vector1.svg");
+    background-position: left bottom 0%, right bottom 0%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.easy-way-content-sub_container1{
+    
+    display: flex;
+   
+    flex-direction: column;
+
+    flex-basis: 33.33%;
+
+    flex-grow: 0;
+    
+    
+    
+    
+    justify-content: center;
+}
+
+.easyway{
+    
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+
+    margin: 20px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.emak2{
+    flex-basis: 90%;
+    
+    background-image: url("../asset_responsive/emak2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.emak2_content{
+    flex-basis: 10%;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.easy-way-content-sub_container2{
+    
+    
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 0;
+    flex-basis: 33.33%;
+    
+    justify-content: center;
+}
+
+.abangOjol{
+    flex-basis: 90%;
+   
+    background-image: url("../asset_responsive/abang-OJOL.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.abangOjol_content{
+    flex-basis: 10%;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.easy-way-content-sub_container3{
+    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+
+    flex-basis: 33.33%;
+    
+    justify-content: center;
+}
+.food{
+    flex-basis: 90%;
+    
+    background-image: url("../asset_responsive/Food.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.food_content{
+    flex-basis: 10%;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/*               Deliver Everywhere              */
+
+.deliver-everywhere-container{
+
+    background-image: url("../asset_responsive/vector3.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    
+    justify-content: center;
+
+    
+    min-height: 400px;
+
+    left: 0;
+    right: 0;
+
+    top: 1025px;
+}
+
+.deliver-everywhere-sub_container1{
+    
+    flex-grow: 0;
+    flex-basis: 45%;
+    display: flex;
+    justify-content: end;
+}
+
+.blue_man-img{
+   
+
+    background-image: url("../asset_responsive/Blue_man.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 100px;
+
+    flex-grow: 0;
+
+    min-width: 300px;
+}
+
+.deliver-everywhere-sub_container2{
+    
+    flex-grow: 0;
+    flex-basis: 55%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 20px;
+
+    font-family: 'Inter',sans-serif;
+}
+
+.deliver-everywhere_title{
+    
+    flex-grow: 0;
+    flex-basis: 20%;
+
+    font-weight: 1000;
+    font-size: 28px;
+
+    margin-top: 10px;
+}
+
+.deliver-everywhere_content{
+    
+    flex-grow: 0;
+    flex-basis: 50%;
+
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.deliver-everywhere_button{
+    
+    flex-grow: 0;
+    flex-basis: 30%;
+    display: flex;
+}
+
+.button-click{
+
+    font-weight: 600;
+    color: white;
+
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #44B250;
+    border: none;
+
+    cursor: pointer;
+}
+.button-click:hover{
+
+    font-weight: 600;
+    color: #44B250;
+
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    
+    border: 2px solid black;
+}
+
+
+
+/*               Mitra    Kami              */
+
+.mitra-kami-container{
+
+    background-image: url("../asset_responsive/vector4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    
+    justify-content: center;
+
+    background-color: white;
+    min-height: 400px;
+
+    left: 0;
+    right: 0;
+
+    top: 1425px;
+}
+.mitra-kami-sub_container1{
+    
+
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 0;
+    flex-basis: 55%;
+
+    font-family: 'Inter',sans-serif;
+    color: black;
+
+    margin-right: 0px;
+}
+.mitra-kami_title{
+
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 5px;
+
+    
+    flex-grow: 0;
+    flex-basis: 20%;
+
+    font-size: 28px;
+    font-weight: 1000;
+}
+.mitra-kami_content{
+
+
+    margin-left: 100px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+
+    flex-grow: 0;
+    flex-basis: 80%;
+    font-weight: 600;
+    text-align: justify;
+
+    font-size: 16px;
+    
+}
+
+.mitra-kami-sub_container2{
+    
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    flex-grow: 0;
+    flex-basis: 45%;
+}
+.mitra-img{
+    
+
+    background-image: url("../asset_responsive/two-business-men-shaking-hands\ 1.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 5px;
+
+    flex-grow: 0;
+
+    min-height: 300px;
+}
+
+
+
+/*      foooooooooooooter       */
+
+
+.footer-container{
+
+    border-top: 2px solid black;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+
+    background-color: white;
+    min-height: 300px;
+
+    left: 0;
+    right: 0;
+
+    top: 1825px;
+
+    font-family: 'Inter',sans-serif;
+}
+
+.footer-sub_container1{
+    flex-grow: 0;
+    flex-basis: 40%;
+    
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-element1{
+    
+    min-width: 200px;
+
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    text-align: end;
+}
+.FE_footer{
+    font-size: 30px;
+}
+.FE_content_footer{
+    font-size: 17px;
+}
+
+.footer-sub_container2{
+    margin-top: 20px;
+    flex-grow: 0;
+    flex-basis: 20%;
+    
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-element2{
+    
+    min-width: 150px;
+
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.kantor_pusat_footer{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.footer-sub_container3{
+    margin-top: 20px;
+    flex-grow: 0;
+    flex-basis: 20%;
+    
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-element3{
+    
+    min-width: 150px;
+
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footer-sub_container4{
+    margin-top: 20px;
+    flex-grow: 0;
+    flex-basis: 20%;
+    
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-element4{
+    
+    min-width: 150px;
+
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bold_element{
+    font-weight: 1000;
+}
+
+
+
+
+
+
+
+
+
+/* responsive css for device(mostly mobile) with screen width 640px or less */
+
+@media(max-width:800px){
+    .container-header{
+        background-color: white;
+        flex-direction: column;
+        min-height: 55px;
+    }
+
+    .header-sub_container1{
+        flex-grow: 0;
+        font-size: 20px;
+        display: flex;
+
+        text-align: left;
+    
+        font-family: 'Inter',sans-serif;
+        
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        left: 0px;
+        right: 0px;
+    
+        flex-grow: 0;
+        flex-basis: 39%;
+
+        border-bottom: 1px solid black;
+    }
+
+    .header-sub_container2 div{
+        flex-grow: 0;
+        display: flex;
+        
+        
+        
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        
+        flex-basis: 25%;
+        margin-right: 1px;
+
+        justify-content: center;
+    }
+
+    .your-cart-header{
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .header-sub_container2 img[alt="download app"]{
+        
+    
+        max-width: 80px;
+        max-height: 30px;
+        
+    }
+    
+    .header-sub_container2 img[alt="cart"]{
+        
+    
+        max-width: 65px;
+        max-height: 30px;
+    
+    }
+    
+    .header-sub_container2 img[alt="news"]{
+        
+    
+        max-width: 50px;
+        max-height: 30px;
+
+    
+    }
+    
+    .header-sub_container2 img[alt="account"]{
+        
+    
+        max-width: 50px;
+        max-height: 30px;
+    
+    }
+
+    .welcome-banner-container {
+        flex-direction: column;
+        min-height: 450px;
+    }
+
+    .welcome-banner-sub_container{
+        flex-direction: row;
+    }
+
+    .FeastEase-welcome-banner{
+        font-family: 'Inter',sans-serif;
+        
+        color: white;
+        
+        margin-left: 0px;
+        margin-top: 100px;
+        
+    }
+
+    .easy-way-title-container{
+        justify-content: center;
+        margin: 0px;
+        border-top: 2px solid black;
+        top: 515px;
+    }
+    .easy-way-title{
+        font-size: 16px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin: 10v;
+    }
+
+    .easyway{
+        margin: 0px;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        background-color: white;
+    }
+
+    .emak2{
+        margin: 0px;
+    }
+    .emak2_content{
+        margin: 0px;
+    }
+
+    .abangOjol{
+        margin: 0px;
+    }
+
+    .food{
+        margin: 0px;
+    }
+
+    .easy-way-content-container{
+       flex-direction: column;
+       height: 1000px;
+    }
+
+    .easy-way-content-sub_container1{
+        min-height: 100px;
+        margin: 0px;
+        flex-direction: column;
+    }
+   
+
+
+
+
+
+    .deliver-everywhere-container{
+        flex-direction: column;
+        height: 500px;
+        top: 1620px;
+    }
+    
+    .deliver-everywhere-sub_container1{
+
+        margin-top: 40px;
+        justify-content: center;
+
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    .blue_man-img{
+        margin: 0px;
+        min-width: 200px;
+    }
+
+
+
+    .deliver-everywhere-sub_container2{
+
+        margin: 0px;
+    }
+    .deliver-everywhere_title{
+        text-align: center;
+        font-size: 16px;
+    }
+    .deliver-everywhere_content{
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-basis: 40%;
+        font-size: 10px;
+    }
+    .deliver-everywhere_button{
+        justify-content: center;
+        flex-basis: 40%;
+    }
+
+
+
+    .mitra-kami-container{
+        flex-direction: column;
+        min-height: 610px;
+        top: 2120px;
+
+        height: 300px;
+
+    }
+    .mitra-kami_title{
+        margin: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+        flex-basis: 40%;
+        margin-top: 100px;
+        font-size: 16px;
+    }
+    .mitra-kami_content{
+        margin: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-basis: 50%;
+        font-size: 10px;
+    }
+
+    .mitra-img{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        
+        min-width: 200px;
+    }
+
+
+
+
+    .footer-container{
+        
+        flex-direction: column;
+        justify-content: center;
+
+        min-height: 300px;
+        top: 2730px;
+    }
+    .footer-sub_container1{
+        margin: 0px;
+        flex-basis: 25%;
+        font-size: 5px;
+        justify-content: center;
+    }
+    .footer-element1{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .FE_footer{
+        font-size: 22px;
+    }
+    .FE_content_footer{
+        font-size: 12px;
+    }
+
+    .footer-sub_container2{
+        margin: 0px;
+        flex-basis: 25%;
+        justify-content: center;
+    }
+    .footer-element2{
+        margin: 0px;
+        text-align: center;
+        
+    }
+    .kantor_pusat_footer{
+        font-size: 12px;
+    }
+
+    .footer-sub_container3{
+        margin: 0px;
+        flex-basis: 25%;
+        justify-content: center;
+    }
+    .footer-element3{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .footer-sub_container4{
+        margin: 0px;
+        flex-basis: 25%;
+        justify-content: center;
+    }
+    .footer-element4{
+        margin: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media(max-width:390px){
+
+    .button-action{
+        margin-top: 10px;
+    }
+    .button-click{
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+        border-radius: 8px;
+    }
+}

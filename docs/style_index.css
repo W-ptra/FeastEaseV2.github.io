@@ -3,6 +3,10 @@ body{
     display: flex;
     flex-direction: column;
 }
+a{
+    color: inherit;
+    text-decoration: none;
+}
 
 /*      Header    Header    Header      Header      Header */
 .container-header{
@@ -113,14 +117,30 @@ a[href="login.html"]{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.download-app-header{
+    cursor: pointer;
+}
 
 .account-header{
     border-left: 1px solid black;
+    align-items: center;
+}
+.account-dropdown{
+    align-items: center;
+    cursor: pointer;
+}
+.account-dropdown img[alt="account"]{
+    width: 9vw;
+    height: 5vh;
+    margin-right: 0.1vw;
+}
+.account-dropdown img[alt="dropdown"]{
+    width: 1.5vw;
+    height: 2vh;
 }
 
 .header-sub_container2 img[alt="account"]{
     
-
     max-width: 80px;
     max-height: 50px;
 
@@ -128,7 +148,41 @@ a[href="login.html"]{
     margin-bottom: 5px;
 
 }
+/*  login pop   */
 
+.loginPop{
+    visibility: hidden;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+
+    right: 2%;
+    top: 11%;
+    
+    width: 20vw;
+    height: 35vh;
+    z-index: 15;
+}
+.login_split{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    font-family: 'Inter',sans-serif;
+}
+.login_split:hover{
+    background-color: #44B250;
+    color: white;
+}
+.split1,.split2,.split3,.split4{
+    border-bottom: 0.1px solid #DBDBDB;
+}
+.login_split span{
+    cursor: pointer;
+    font-size: 1.3vw;
+}
 
 /*                       welcome banner                   !!!!!!!!*/
 
@@ -351,7 +405,7 @@ a[href="login.html"]{
 .blue_man-img{
    
 
-    background-image: url("./asset_responsive/Blue_man.svg");
+    background-image: url("./asset_responsive/Blue_man-min.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -504,7 +558,7 @@ a[href="login.html"]{
 .mitra-img{
     
 
-    background-image: url("./asset_responsive/two-business-men-shaking-hands\ 1.svg");
+    background-image: url("./asset_responsive/two-business-men-shaking-hands\ 1-min.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -754,6 +808,12 @@ a[href="login.html"]{
     }
     .FT-welcome{
         font-size: 6vw;
+    }
+
+    .loginPop{
+        right: 2%;
+        width: 30vw;
+        height: 20vh;
     }
 
     .easy-way-title-container{

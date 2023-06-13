@@ -1,3 +1,21 @@
+function showPop() {
+  var loginPop = document.getElementById("loginPop");
+  if (loginPop.style.visibility === "visible") {
+    loginPop.style.visibility = "hidden";
+  } else {
+    loginPop.style.visibility = "visible";
+  }
+}
+
+function downloadImage() {
+  var imageUrl = "95846e2f-5ae2-4b8c-9026-4116908ca8c5.jfif";
+  var link = document.createElement("a");
+  link.href = imageUrl;
+  link.download = "Awikwok.jpg";
+  link.click();
+}
+
+
 function payment(){
   alert("Horeee terima kasih 🥳🥳🥳");
 }

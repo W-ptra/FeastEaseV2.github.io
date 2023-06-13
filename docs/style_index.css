@@ -758,7 +758,7 @@ a[href="login.html"]{
         align-items: center;
         font-size: 20px;
         flex-direction: column;
-        height: 130vh;
+        height: 140vh;
     }
     .easy-way-content-container img{
         width: 300px;
@@ -767,10 +767,10 @@ a[href="login.html"]{
     .easy-way-content-sub_container1,.easy-way-content-sub_container2,.easy-way-content-sub_container3{
         width: 80vw;
         height: 70vh;
-        font-size: 16px;
     }
     .easyway{
         background-color: white;
+        font-size: 3vw;
     }
 
     .emak2{
@@ -797,7 +797,7 @@ a[href="login.html"]{
 
     .deliver-everywhere-container{
         flex-direction: column;
-        height: 80vh;
+        height: 90vh;
     }
     
     .deliver-everywhere-sub_container1{
@@ -816,18 +816,19 @@ a[href="login.html"]{
     }
     .deliver-everywhere_title{
         text-align: center;
-        font-size: 25px;
+        font-size: 5vw;
     }
     .deliver-everywhere_content{
         margin-left: 50px;
         margin-right: 50px;
         flex-basis: 40%;
-        font-size: 16px;
+        font-size: 3vw;
     }
     .deliver-everywhere_button{
         margin-top: 20px;
         justify-content: center;
         flex-basis: 40%;
+        font-size: 2vw;
     }
 
     .mitra-kami-container{
@@ -839,14 +840,14 @@ a[href="login.html"]{
         margin: 0px;
         text-align: center;
         flex-basis: 20%;
-        font-size: 25px;
+        font-size: 5vw;
     }
     .mitra-kami_content{
         margin: 0px;
         margin-left: 50px;
         margin-right: 50px;
         flex-basis: 80%;
-        font-size: 16px;
+        font-size: 3vw;
     }
 
     .mitra-img{
@@ -857,7 +858,6 @@ a[href="login.html"]{
         
         min-width: 200px;
     }
-
 
     .footer-container{
         margin-top: 5vh;

@@ -43,7 +43,7 @@ function removeDate() {
     var elementsToShow = document.getElementsByClassName('element-to-delete');
     var windowWidth = window.innerWidth;
   
-    if (windowWidth <= 580) {
+    if (windowWidth <= 700) {
       for (var i = 0; i < elementsToShow.length; i++) {
         elementsToShow[i].classList.add('gone');
       }
@@ -63,4 +63,25 @@ function removeDate() {
   // Call the function initially to handle the initial state
   removeDate();
   menuContent();
+  
+
+  let valueElement = document.getElementById('satu');
+  let value = 1;
+  
+  function incrementValue() {
+    value++;
+    valueElement.textContent = value;
+  }
+  
+  function decrementValue() {
+    if (value > 0) {
+      value--;
+      valueElement.textContent = value;
+    }
+  }
+  
+  function resetValue() {
+    value = 0;
+    valueElement.textContent = value;
+  }
   

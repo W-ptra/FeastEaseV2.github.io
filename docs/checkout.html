@@ -16,7 +16,7 @@
         
         <div class="container-header" >
             <div class="header-sub_container1" >
-                <a href="index_responsive.html">
+                <a href="index.html">
                     <span class="Feast-header" >Feast</span><span class="Ease-header" >Ease</span>
                 </a>
             </div>
@@ -24,16 +24,50 @@
             <div class="header-sub_container2" >
                 
                 <div class="account-header" >
-                    <div class="account-dropdown" >
-                        <a href="login.html">
+                    <div class="account-dropdown" onclick="showPop()">
+                        
                             <img src="./asset_responsive/Account.svg" alt="account">
-                        </a>
+                       
                     </div>
                 </div>
 
             </div>
-    
         </div>
+
+        <div class="loginPop" id="loginPop">
+            
+            <div class="login_split split1">
+                <span>
+                    Akun Saya
+                </span>
+            </div>
+            <div class="login_split split2">
+                <span>
+                    Pengaturan
+                </span>
+            </div>
+            <div class="login_split split3">
+                <span>
+                    Bookmark
+                </span>
+            </div>
+            <div class="login_split split4">
+                <span>
+                    <a href="login.html">
+                        Log in
+                    </a>
+                    
+                </span>
+            </div>
+            <div class="login_split split5">
+                <span>
+                    Pusat Bantuan
+                </span>
+            </div>
+        
+    </div>
+
+    
 
         <div class="kembali_ke_menu">
             <div class="cover">
@@ -82,18 +116,7 @@
                     </div>
 
                     <div class="cover-catatan">
-                        <div class="catatan-titip_satpam">
-                            <div class="cover_img">
-                                <img src="./asset_responsive/Catatan img.svg" alt="catatan img">
-                            </div>
-                            <div class="tambah_catatan">
-
-                                <div class="center_1">
-                                    Tambahkan Catatan Pengiriman (tolong titip di pos satpam)
-                                </div>
-
-                            </div>
-                        </div>
+                        <input type="text" class="catatan-titip_satpam" placeholder="Tambahkan Catatan Pengiriman (Tolong titip di pos satpam)">
                     </div>
                 </div>
 
@@ -217,25 +240,19 @@
 
                         <div class="sampah">
                             <div class="bawah">
-
-                                <div class="tong_sampah">
-                                    <img src="./asset_responsive/Tong sampah.svg" alt="tong sampah">
-                                </div>
-
-                                <div class="minus">
-                                    <img src="./asset_responsive/Minus.svg" alt="minus">
-                                </div>
-                                    
-                                <div class="satu">
-                                    1
-                                </div>
-                                    
-                                <div class="plus">
-                                    <img src="./asset_responsive/Plus.svg" alt="plus">
-                                </div>
-                               
+                              <div class="tong_sampah">
+                                <img src="./asset_responsive/Tong sampah.svg" alt="tong sampah" onclick="resetValue()">
+                              </div>
+                              <div class="minus">
+                                <img src="./asset_responsive/Minus.svg" alt="minus" onclick="decrementValue()">
+                              </div>
+                              <div class="satu" id="satu">1</div>
+                              <div class="plus">
+                                <img src="./asset_responsive/Plus.svg" alt="plus" onclick="incrementValue()">
+                              </div>
                             </div>
-                        </div>
+                          </div>
+                          
 
                     </div>
 

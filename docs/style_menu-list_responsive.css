@@ -363,13 +363,13 @@ img[alt="drop down point right"]{
 
 /*  background control */
 .background-chef{
-    background-image: url("./asset_responsive/background\ chef\ with\ shade.svg");
+    background-image: url("./asset_responsive/background\ chef\ with\ shade-min.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .background-sehat{
-    background-image: url("./asset_responsive/banner\ buah\ with\ shade.svg");
+    background-image: url("./asset_responsive/banner\ buah\ with\ shade-min.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -816,7 +816,6 @@ img[alt="drop down point right"]{
     .welcome-banner-sub_container{
         flex-direction: column;
         align-items: center;
-
     }
 
     .FeastEase-welcome-banner{
@@ -883,7 +882,7 @@ img[alt="drop down point right"]{
     }
 
     .centerize1{
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .lokasi{
@@ -981,7 +980,14 @@ img[alt="drop down point right"]{
         width: 13vw;
     }
 
-
+    .helper1{
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    .title-chef{
+        font-size: 4vw;
+    }
     .footer-container{
         
         flex-direction: column;
@@ -1068,7 +1074,7 @@ img[alt="drop down point right"]{
       
 }
 
-@media (max-width: 580px) {
+@media (max-width: 700px) {
     .tanggal_content{
         margin-left: 10px;
         margin-right: 10px;

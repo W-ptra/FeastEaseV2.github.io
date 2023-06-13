@@ -7,9 +7,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"><!-- link google API untuk pake font 'Inter' -->
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- link google API untuk pake font 'Inter' -->
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"><!-- link google API untuk pake font 'Inter' -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.js"></script>
         <script src="temporaryData.js"></script>
-        <script src="script.js" ></script>
+        <script src="script_login.js" ></script>
 
         <title>
             FeastEase
@@ -30,16 +29,16 @@
 
             <form  class="form_inputbox" action="">
                 <label for="">Username</label><br>
-                <input type="text" placeholder="     Email"><br>
+                <input type="text" placeholder="Email" id="user_username"><br>
                 <label for="">Password</label><br>
-                <input type="password" placeholder="    Password">
+                <input type="password" placeholder="Password" id="user_password">
             </form>
 
             <div class="lupaPassword" onclick="lupaPass()">Lupa Password?</div>
 
-            <a href="index.html">
-                <button class="submit_button" onclick="clickLogin()">Masuk!</button>
-            </a>
+            
+            <button class="submit_button" onclick="submit()">Masuk!</button>
+           
             
             
             <a href="register.html">

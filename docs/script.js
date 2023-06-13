@@ -2,14 +2,6 @@ function payment(){
   alert("Horeee terima kasih 🥳🥳🥳");
 }
 
-function lupaPass(){
-  alert("Waduh 😅☝️");
-}
-
-function clickLogin(){
-  alert("Selamat Datang di FeastEase  🥳🥳🥳")
-}
-
 function registerDone(){
   alert("Selamat Anda Sudah Rerdaftar ✋😆🤚")
 }

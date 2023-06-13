@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- link google API untuk pake font 'Inter' -->
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"><!-- link google API untuk pake font 'Inter' -->
         <script src="temporaryData.js"></script>
-        <script src="script.js" ></script>
+        <script src="script_register.js" ></script>
 
         <title>
             FeastEase
@@ -31,21 +31,21 @@
             <label  class="label_depan" for="">Nama Depan</label>
             <label  class="label_belakang" for="">Nama Belakang</label>
 
-            <input type="input_depan" placeholder="    Nama Depan">
-            <input type="input_belakang" placeholder="    Nama Belakang">
+            <input type="input_depan" placeholder="Nama Depan" id="first_name">
+            <input type="input_belakang" placeholder="Nama Belakang" id="last_name">
 
             <label  class="label_email" for="">Email</label>
             <label  class="label_password" for="">Password</label>
 
-            <input type="input_email" placeholder="    Email">
-            <input type="password" placeholder="    Password">
+            <input type="input_email" placeholder="Email max 64 character" id="username">
+            <input type="password" placeholder="Password 8 - 16 character" id="password">
 
 
-            <input type="checkbox" name="" id="agree_checkbox">
+            <input type="checkbox" name="" id="checkbox">
 
             <div class="ketentuan" for="">
 
-                <label for="agree_checkbox">
+                <label for="checkbox">
 
                     <div class="ketentuan-contain" >
                         <span class="saya_setuju" >Saya setuju dengan</span><span class="syarat_ketentuan" > Syarat dan Ketentuan FeastEase</span>
@@ -55,9 +55,9 @@
                 
             </div>
 
-            <a href="login.html">
-                <button class="submit_button" onclick="registerDone()">Daftar!</button>
-            </a>
+            
+                <button class="submit_button" onclick="submit()">Daftar!</button>
+           
             
             
             <a href="login.html">

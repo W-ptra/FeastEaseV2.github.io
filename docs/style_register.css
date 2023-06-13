@@ -51,6 +51,10 @@ table {
 
 /* box */
 
+input{
+    text-indent: 10px;
+}
+
 .inputBox{
     z-index: 5;
     position: absolute;

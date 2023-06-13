@@ -4,9 +4,6 @@ body{
     flex-direction: column;
 }
 
-
-
-
 /*      Header    Header    Header      Header      Header */
 .container-header{
     z-index: 10;
@@ -27,9 +24,9 @@ body{
 }
 .header-sub_container1{
     flex-grow: 0;
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
-
+    align-items: center;
     font-family: 'Inter',sans-serif;
     
     margin-top: 5px;
@@ -57,7 +54,7 @@ body{
     flex-grow: 0;
     flex-basis: 61%;
     flex-direction: column;
-
+    align-items: center;
     display: flex;
     flex-direction: row;
 
@@ -151,7 +148,7 @@ a[href="login.html"]{
 }
 
 .welcome-banner-container{
-    background-image: url("./asset_responsive/bgmain5.svg");
+    background-image: url("./asset_responsive/Property\ 1=Pastry\ di\ taburin\ gula-min.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,8 +164,6 @@ a[href="login.html"]{
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
-
-    
     justify-content: center;
 }
 .FeastEase-welcome-banner{
@@ -182,17 +177,17 @@ a[href="login.html"]{
 }
 .F-welcomer{
     line-height: 1.5;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 400;
 }
 .E-welcome{
     line-height: 1.5;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 1000;
 }
 .FT-welcome{
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
@@ -226,13 +221,9 @@ a[href="login.html"]{
 .easy-way-content-container{
     position: absolute;
     display: flex;
-    
-    justify-content: center;
-
-    
-
+    justify-content: space-evenly;
     background-color: white;
-    min-height: 400px;
+    height: 400px;
 
     left: 0;
     right: 0;
@@ -249,20 +240,17 @@ a[href="login.html"]{
     font-weight: 1000;
     text-align: center;
 }
+.easy-way-content-container img{
+    height: 300px;
+    width: 300px;
+}
 
 .easy-way-content-sub_container1{
     
     display: flex;
-   
     flex-direction: column;
-
-    flex-basis: 33.33%;
-
+    width: 30vw;
     flex-grow: 0;
-    
-    
-    
-    
     justify-content: center;
 }
 
@@ -271,51 +259,40 @@ a[href="login.html"]{
     
     display: flex;
     flex-direction: column;
-    min-height: 300px;
+    height: 300px;
 
     margin: 20px;
 
-    border: 2px solid black;
+    align-items: center;
+    border: 1px solid black;
     border-radius: 15px;
+    font-size: 22px;
+    background-color: white;
 }
 
 .emak2{
-    flex-basis: 90%;
-    
-    background-image: url("./asset_responsive/emak2.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+    flex-basis: 80%;
     margin-left: 40px;
     margin-right: 40px;
 }
 .emak2_content{
-    flex-basis: 10%;
-    
+    display: flex;
+    flex-basis: 20%;
     margin-left: 40px;
     margin-right: 40px;
+    align-items: center;
 }
 
 .easy-way-content-sub_container2{
-    
-    
     display: flex;
     flex-direction: column;
-
-    flex-grow: 0;
-    flex-basis: 33.33%;
+    width: 30vw;
     
     justify-content: center;
 }
 
 .abangOjol{
     flex-basis: 90%;
-   
-    background-image: url("./asset_responsive/abang-OJOL.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 
     margin-left: 40px;
     margin-right: 40px;
@@ -331,19 +308,12 @@ a[href="login.html"]{
     
     display: flex;
     flex-direction: column;
-    flex-grow: 0;
-
-    flex-basis: 33.33%;
+    width: 30vw;
     
     justify-content: center;
 }
 .food{
     flex-basis: 90%;
-    
-    background-image: url("./asset_responsive/Food.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 
     margin-left: 40px;
     margin-right: 40px;
@@ -387,6 +357,7 @@ a[href="login.html"]{
     flex-basis: 45%;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 
 .blue_man-img{
@@ -397,14 +368,10 @@ a[href="login.html"]{
     background-position: center;
     background-repeat: no-repeat;
 
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 10px;
-    margin-left: 100px;
+    height: 300px;
+    width: 400px;
 
     flex-grow: 0;
-
-    min-width: 300px;
 }
 
 .deliver-everywhere-sub_container2{
@@ -586,20 +553,16 @@ a[href="login.html"]{
     box-sizing: border-box;
 
     background-color: white;
-    min-height: 300px;
-
+    min-height: 230px;
     left: 0;
     right: 0;
-
     top: 1825px;
-
     font-family: 'Inter',sans-serif;
 }
 
 .footer-sub_container1{
     flex-grow: 0;
-    flex-basis: 40%;
-    
+    flex-basis: 35%;
 
     display: flex;
     justify-content: center;
@@ -694,12 +657,6 @@ a[href="login.html"]{
 
 
 
-
-
-
-
-
-
 /* responsive css for device(mostly mobile) with screen width 640px or less */
 
 @media(max-width:800px){
@@ -789,6 +746,7 @@ a[href="login.html"]{
     .welcome-banner-container {
         flex-direction: column;
         min-height: 450px;
+        top: 10%;
     }
 
     .welcome-banner-sub_container{
@@ -809,19 +767,31 @@ a[href="login.html"]{
         justify-content: center;
         margin: 0px;
         border-top: 2px solid black;
-        top: 515px;
+        top: 60%;
     }
     .easy-way-title{
-        font-size: 16px;
+        font-size: 30px;
         margin-top: 40px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
         margin: 10v;
+        align-items: center;
+    }
+    .easy-way-content-container{
+        align-items: center;
+        font-size: 20px;
+        top: 70%;
+    }
+    .easy-way-content-container img{
+        width: 300px;
+        height: 300px;
     }
 
+    .easy-way-content-sub_container1,.easy-way-content-sub_container2,.easy-way-content-sub_container3{
+        width: 50vw;
+        height: 70vh;
+    }
     .easyway{
         margin: 0px;
-        margin-left: 20vw;
-        margin-right: 20vw;
         background-color: white;
     }
 
@@ -842,7 +812,7 @@ a[href="login.html"]{
 
     .easy-way-content-container{
        flex-direction: column;
-       height: 1000px;
+       height: 1075px;
     }
 
     .easy-way-content-sub_container1{
@@ -859,7 +829,7 @@ a[href="login.html"]{
     .deliver-everywhere-container{
         flex-direction: column;
         height: 500px;
-        top: 1620px;
+        top: 189%;
     }
     
     .deliver-everywhere-sub_container1{
@@ -872,7 +842,8 @@ a[href="login.html"]{
     }
     .blue_man-img{
         margin: 0px;
-        min-width: 200px;
+        width: 210px;
+        height: 200px;
     }
 
 
@@ -883,15 +854,16 @@ a[href="login.html"]{
     }
     .deliver-everywhere_title{
         text-align: center;
-        font-size: 16px;
+        font-size: 25px;
     }
     .deliver-everywhere_content{
         margin-left: 50px;
         margin-right: 50px;
         flex-basis: 40%;
-        font-size: 10px;
+        font-size: 16px;
     }
     .deliver-everywhere_button{
+        margin-top: 20px;
         justify-content: center;
         flex-basis: 40%;
     }
@@ -901,25 +873,22 @@ a[href="login.html"]{
     .mitra-kami-container{
         flex-direction: column;
         min-height: 610px;
-        top: 2120px;
-
+        top: 250%;
         height: 300px;
-
+        background-image: none;
     }
     .mitra-kami_title{
         margin: 0px;
         text-align: center;
-        margin-bottom: 10px;
-        flex-basis: 40%;
-        margin-top: 100px;
-        font-size: 16px;
+        flex-basis: 20%;
+        font-size: 25px;
     }
     .mitra-kami_content{
         margin: 0px;
         margin-left: 50px;
         margin-right: 50px;
-        flex-basis: 50%;
-        font-size: 10px;
+        flex-basis: 80%;
+        font-size: 16px;
     }
 
     .mitra-img{
@@ -932,20 +901,18 @@ a[href="login.html"]{
     }
 
 
-
-
     .footer-container{
         
         flex-direction: column;
         justify-content: center;
 
         min-height: 300px;
-        top: 2730px;
+        top: 320%;
     }
     .footer-sub_container1{
         margin: 0px;
         flex-basis: 25%;
-        font-size: 5px;
+        font-size: 20px;
         justify-content: center;
     }
     .footer-element1{

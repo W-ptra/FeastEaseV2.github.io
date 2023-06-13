@@ -217,7 +217,7 @@ a[href="login.html"]{
     display: flex;
     justify-content: space-evenly;
     background-color: white;
-    height: 50vh;
+    height: 70vh;
 
     left: 0;
     right: 0;
@@ -333,12 +333,10 @@ a[href="login.html"]{
     justify-content: center;
 
     
-    min-height: 400px;
+    height: 70vh;
 
     left: 0;
     right: 0;
-
-    top: 1025px;
 }
 
 .deliver-everywhere-sub_container1{
@@ -439,24 +437,16 @@ a[href="login.html"]{
 /*               Mitra    Kami              */
 
 .mitra-kami-container{
-
-    background-image: url("./asset_responsive/vector4.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
     display: flex;
     box-sizing: border-box;
     
     justify-content: center;
 
     background-color: white;
-    min-height: 400px;
+    min-height: 40vh;
 
     left: 0;
     right: 0;
-
-    top: 1425px;
 }
 .mitra-kami-sub_container1{
     
@@ -470,7 +460,7 @@ a[href="login.html"]{
     font-family: 'Inter',sans-serif;
     color: black;
 
-    margin-right: 0px;
+    margin-right: 10px;
 }
 .mitra-kami_title{
 
@@ -541,10 +531,9 @@ a[href="login.html"]{
     box-sizing: border-box;
 
     background-color: white;
-    min-height: 230px;
+    height: 30vh;
     left: 0;
     right: 0;
-    top: 1825px;
     font-family: 'Inter',sans-serif;
 }
 
@@ -651,7 +640,7 @@ a[href="login.html"]{
     .container-header{
         background-color: white;
         flex-direction: column;
-        min-height: 55px;
+        height: 11vh;
     }
 
     .header-sub_container1{
@@ -733,47 +722,46 @@ a[href="login.html"]{
 
     .welcome-banner-container {
         flex-direction: column;
-        min-height: 450px;
-        top: 10%;
+        margin-top: 10vh;
     }
 
     .welcome-banner-sub_container{
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+
     }
 
     .FeastEase-welcome-banner{
         font-family: 'Inter',sans-serif;
         
         color: white;
-        
         margin-left: 0px;
-        margin-top: 100px;
+        align-items: center;
+        justify-content: center;    
+        align-items: center;
         
     }
 
     .easy-way-title-container{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        margin: 0px;
-        border-top: 2px solid black;
-        top: 60%;
+        align-items: center;
+        height: 10vh;
+        margin-top: 3vh;
     }
     .easy-way-title{
         font-size: 30px;
-        margin-top: 40px;
-        margin-bottom: 0px;
-        margin: 10v;
         align-items: center;
     }
     .easy-way-content-container{
         align-items: center;
         font-size: 20px;
-        top: 70%;
     }
     .easy-way-content-container img{
         width: 300px;
         height: 300px;
     }
-
     .easy-way-content-sub_container1,.easy-way-content-sub_container2,.easy-way-content-sub_container3{
         width: 50vw;
         height: 70vh;
@@ -810,14 +798,8 @@ a[href="login.html"]{
     }
    
 
-
-
-
-
     .deliver-everywhere-container{
         flex-direction: column;
-        height: 500px;
-        top: 189%;
     }
     
     .deliver-everywhere-sub_container1{
@@ -833,8 +815,6 @@ a[href="login.html"]{
         width: 210px;
         height: 200px;
     }
-
-
 
     .deliver-everywhere-sub_container2{
 
@@ -856,13 +836,8 @@ a[href="login.html"]{
         flex-basis: 40%;
     }
 
-
-
     .mitra-kami-container{
         flex-direction: column;
-        min-height: 610px;
-        top: 250%;
-        height: 300px;
         background-image: none;
     }
     .mitra-kami_title{
@@ -893,9 +868,6 @@ a[href="login.html"]{
         
         flex-direction: column;
         justify-content: center;
-
-        min-height: 300px;
-        top: 320%;
     }
     .footer-sub_container1{
         margin: 0px;

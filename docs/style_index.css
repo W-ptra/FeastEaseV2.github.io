@@ -641,6 +641,7 @@ a[href="login.html"]{
         background-color: white;
         flex-direction: column;
         height: 11vh;
+
     }
 
     .header-sub_container1{
@@ -652,8 +653,8 @@ a[href="login.html"]{
     
         font-family: 'Inter',sans-serif;
         
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
         margin-left: 10px;
         margin-right: 10px;
 
@@ -670,8 +671,6 @@ a[href="login.html"]{
         flex-grow: 0;
         display: flex;
         
-        
-        
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 0px;
@@ -685,8 +684,17 @@ a[href="login.html"]{
     .your-cart-header{
         border-left: 1px solid black;
         border-right: 1px solid black;
+        height: 4vh;
     }
 
+    .news-header{
+        border-right: 1px solid black;
+        height: 4vh
+    }
+
+    .account-header{
+        border: 1px solid transparent;
+    }
     .header-sub_container2 img[alt="download app"]{
         
     
@@ -741,6 +749,12 @@ a[href="login.html"]{
         align-items: center;
         
     }
+    .E-welcome,.F-welcomer{
+        font-size: 7vw;
+    }
+    .FT-welcome{
+        font-size: 6vw;
+    }
 
     .easy-way-title-container{
         display: flex;
@@ -751,7 +765,7 @@ a[href="login.html"]{
         margin-top: 3vh;
     }
     .easy-way-title{
-        font-size: 30px;
+        font-size: 5vw;
         align-items: center;
     }
     .easy-way-content-container{

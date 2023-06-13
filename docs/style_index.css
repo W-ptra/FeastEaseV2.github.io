@@ -812,8 +812,9 @@ a[href="login.html"]{
 
     .loginPop{
         right: 2%;
-        width: 30vw;
-        height: 20vh;
+        width: 50vw;
+        height: 30vh;
+        font-size: 5vw;
     }
 
     .easy-way-title-container{

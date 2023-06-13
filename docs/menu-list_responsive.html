@@ -17,51 +17,69 @@
 
     <body>
         
-        <div class="header-container" >
-
+        <div class="container-header" >
             <div class="header-sub_container1" >
 
-                <div class="header-FeastEase">
-
-                    <a href="index.html">
-                        <div class="FeastEase">
-                            <span class="Feast" >Feast</span><span class="Ease" >Ease</span>
-                        </div>
-                    </a>
-                    
-                    
-                </div>
-                
-                <div class="header-search_bar">
-                    <input type="text" placeholder="Mau cari menu apa?">
-                </div>
-                
+                <span class="Feast-header" >Feast</span><span class="Ease-header" >Ease</span>
                 
             </div>
             
             <div class="header-sub_container2" >
-                <div class="download-app-header" >
-                    <img src="./asset_responsive/Download.svg" alt="download app">
+                <div class="download-app-header"  onclick="downloadImage()">
+                    <img src="asset_responsive/Download.svg" alt="download app">
                 </div>
                 
+               
                 <div class="your-cart-header" >
                     <a href="checkout.html">
-                        <img src="./asset_responsive/Cart.svg" alt="cart">
+                        <img src="asset_responsive/Cart.svg" alt="cart">
                     </a>
                 </div>
-    
+               
+
                 <div class="news-header" >
-                    <img src="./asset_responsive/News.svg" alt="news">
+                    <img src="asset_responsive/News.svg" alt="news">
                 </div>
                 
                 <div class="account-header" >
-                    <div class="account-dropdown" >
-                        <a href="login.html">
-                            <img src="./asset_responsive/Account.svg" alt="account">
-                        </a>
+                    <div class="account-dropdown" onclick="showPop()">
+                        <img src="asset_responsive/Account.svg" alt="account">
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="loginPop" id="loginPop">
+            
+                <div class="login_split split1">
+                    <span>
+                        Akun Saya
+                    </span>
+                </div>
+                <div class="login_split split2">
+                    <span>
+                        Pengaturan
+                    </span>
+                </div>
+                <div class="login_split split3">
+                    <span>
+                        Bookmark
+                    </span>
+                </div>
+                <div class="login_split split4">
+                    <span>
+                        <a href="login.html">
+                            Log in
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="login_split split5">
+                    <span>
+                        Pusat Bantuan
+                    </span>
+                </div>
+            
         </div>
 
         <div class="place_time-container">
@@ -96,7 +114,7 @@
                 <div class="centerize">
                     
                     <div class="tanggal1">
-                        <div class="tanggal_content">
+                        <div class="tanggal_content" id="tanggal1" onclick="goGreen1()">
                             <div class="helper_container">
                                 Sab <br>
                                 1
@@ -104,7 +122,7 @@
                         </div>
                     </div>
                     <div class="tanggal1">
-                        <div class="tanggal_content">
+                        <div class="tanggal_content" id="tanggal2" onclick="goGreen2()">
                             <div class="helper_container">
                                 Min <br>
                                 2
@@ -112,7 +130,7 @@
                         </div>
                     </div>
                     <div class="tanggal1">
-                        <div class="tanggal_content">
+                        <div class="tanggal_content" id="tanggal3" onclick="goGreen3()">
                             <div class="helper_container">
                                 Sen <br>
                                 3
@@ -120,7 +138,7 @@
                         </div>
                     </div>
                     <div class="tanggal1">
-                        <div class="tanggal_content">
+                        <div class="tanggal_content" id="tanggal4" onclick="goGreen4()">
                             <div class="helper_container">
                                 Sel <br>
                                 4
@@ -128,7 +146,7 @@
                         </div>
                     </div>
                     <div class="tanggal1">
-                        <div class="tanggal_content">
+                        <div class="tanggal_content" id="tanggal5" onclick="goGreen5()">
                             <div class="helper_container">
                                 Rab <br>
                                 5
@@ -136,14 +154,14 @@
                         </div>
                     </div>
                     <div class="tanggal1">
-                        <div class="tanggal_content">
+                        <div class="tanggal_content" id="tanggal6" onclick="goGreen6()">
                             <div class="helper_container">
                                 Kam <br>
                                 6
                             </div>
                         </div>
                     </div>
-                    <div class="tanggal hidden" id="element-to-remove">
+                    <div class="tanggal hidden" id="element-to-remove" id="tanggal7" onclick="goGreen7()">
                         <div class="tanggal_content">
                             <div class="helper_container">
                                 Jum <br>
@@ -151,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tanggal hidden" id="element-to-remove">
+                    <div class="tanggal hidden" id="element-to-remove" id="tanggal8" onclick="goGreen8()">
                         <div class="tanggal_content">
                             <div class="helper_container">
                                 Sab <br>
@@ -159,7 +177,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tanggal hidden" id="element-to-remove">
+                    <div class="tanggal hidden" id="element-to-remove" id="tanggal9" onclick="goGreen9()">
                         <div class="tanggal_content">
                             <div class="helper_container">
                                 Min <br>
@@ -167,7 +185,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tanggal hidden" id="element-to-remove">
+                    <div class="tanggal hidden" id="element-to-remove" id="tanggal10" onclick="goGreen10()">
                         <div class="tanggal_content">
                             <div class="helper_container">
                                 Sen <br>
@@ -175,7 +193,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tanggal hidden" id="element-to-remove">
+                    <div class="tanggal hidden" id="element-to-remove" id="tanggal11" onclick="goGreen11()">
                         <div class="tanggal_content">
                             <div class="helper_container">
                                 Sel <br>
@@ -183,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tanggal hidden" id="element-to-remove">
+                    <div class="tanggal hidden" id="element-to-remove" id="tanggal12" onclick="goGreen12()">
                         <div class="tanggal_content">
                             <div class="helper_container">
                                 Rab <br>
@@ -191,7 +209,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tanggal hidden" id="element-to-remove">
+                    <div class="tanggal hidden" id="element-to-remove" id="tanggal13" onclick="goGreen13()">
                         <div class="tanggal_content">
                             <div class="helper_container">
                                 Kam <br>

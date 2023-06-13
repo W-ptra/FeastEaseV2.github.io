@@ -34,83 +34,57 @@ a[href="login.html"]{
     justify-content: center;
 }
 
-/* Header */
-
-.header-container{
+/*      Header    Header    Header      Header      Header */
+.container-header{
     z-index: 10;
     position: fixed;
     display: flex;
 
+    background-color:white;
+    margin: 0px;
+
+    top: 0px;
     left: 0px;
     right: 0px;
-    top: 0px;
+    
+    min-height: 11vh;
+    justify-content: center;
 
-    background-color: white;
-
-    min-height: 65px;
     border-bottom: 1px solid black;
 }
-
 .header-sub_container1{
-    display: flex;
     flex-grow: 0;
-    flex-basis: 50%;
-
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter',sans-serif;
     
-}
-
-.header-FeastEase{
-    
-    margin-top: 12px;
+    margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 10px;
-
-    display: flex;
+    margin-left: 25px;
+    margin-right: 1px;
 
     flex-grow: 0;
-    flex-basis: 30%;
+    flex-basis: 39%;
 
-    font-size: 30px;
+    max-height: 70px;
+    
 }
 
-.header-search_bar{
-    
-    display: flex;
-    
-    flex-grow: 0;
-    flex-basis: 70%;
+.Feast-header{
+    font-weight: 100;
+    color: #44B250;
 }
-
-input[placeholder="Mau cari menu apa?"]{
-    flex-basis: 100%;
-    
-    text-indent: 10px;
-
-    max-width: 400px;
-
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    border-radius: 15px;
-    border: 1px solid black;
-}
-
-input::placeholder{
-
-    margin-left: 0px;
-    margin-right: 0px;
-
-
-    text-indent: 10px;
+.Ease-header{
+    font-weight: 1000;
+    color: #44B250;
 }
 
 .header-sub_container2{
     flex-grow: 0;
     flex-basis: 61%;
     flex-direction: column;
-
+    align-items: center;
     display: flex;
     flex-direction: row;
 
@@ -138,6 +112,22 @@ input::placeholder{
     margin-bottom: 5px;
 }
 
+a{
+    text-decoration: none;
+    display: flex;
+}
+
+a[href="checkout.html"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a[href="login.html"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .header-sub_container2 img[alt="cart"]{
     max-width: 90px;
     max-height: 60px;
@@ -153,14 +143,30 @@ input::placeholder{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.download-app-header{
+    cursor: pointer;
+}
 
 .account-header{
     border-left: 1px solid black;
+    align-items: center;
+}
+.account-dropdown{
+    align-items: center;
+    cursor: pointer;
+}
+.account-dropdown img[alt="account"]{
+    width: 9vw;
+    height: 5vh;
+    margin-right: 0.1vw;
+}
+.account-dropdown img[alt="dropdown"]{
+    width: 1.5vw;
+    height: 2vh;
 }
 
 .header-sub_container2 img[alt="account"]{
     
-
     max-width: 80px;
     max-height: 50px;
 
@@ -168,7 +174,41 @@ input::placeholder{
     margin-bottom: 5px;
 
 }
+/*  login pop   */
 
+.loginPop{
+    visibility: hidden;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+
+    right: 2%;
+    top: 11%;
+    
+    width: 20vw;
+    height: 35vh;
+    z-index: 15;
+}
+.login_split{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    font-family: 'Inter',sans-serif;
+}
+.login_split:hover{
+    background-color: #44B250;
+    color: white;
+}
+.split1,.split2,.split3,.split4{
+    border-bottom: 0.1px solid #DBDBDB;
+}
+.login_split span{
+    cursor: pointer;
+    font-size: 1.3vw;
+}
 /*  lokasi & waktu & tanggal */
 
 .place_time-container{
@@ -196,6 +236,8 @@ input::placeholder{
 .place_time-sub_container1{
     margin-top: 10px;
     margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .place_time-sub_container2{
     margin-bottom: 20px;
@@ -204,7 +246,7 @@ input::placeholder{
     display: flex;
     flex-direction: row;
     flex-grow: 0;
-    
+    align-items: center;
     min-width: 75vw;
     
 }
@@ -675,68 +717,64 @@ img[alt="drop down point right"]{
         display: none;
     }
 
-    .header-container{
-        display: flex;
+    .container-header{
+        background-color: white;
         flex-direction: column;
+        height: 11vh;
+
     }
+
     .header-sub_container1{
-       margin: 0px;
-       flex-basis: 50%;
-    }
-    .header-FeastEase{
-        font-size: 18px;
-        margin-bottom: 0px;
-    }
+        flex-grow: 0;
+        font-size: 20px;
+        display: flex;
 
-    .header-search_bar{
-        margin-top: 5px;
-        margin-bottom: 0px;
-        margin-right: 10px;
-    }
-    input[placeholder="Mau cari menu apa?"]{
-        flex-basis: 100%;
+        text-align: left;
+    
+        font-family: 'Inter',sans-serif;
         
-        text-indent: 10px;
-    
-        max-width: 400px;
-    
-        margin: 0px;
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+        margin-left: 10px;
+        margin-right: 10px;
 
-        border-radius: 15px;
-        border: 1px solid black;
+        left: 0px;
+        right: 0px;
+    
+        flex-grow: 0;
+        flex-basis: 39%;
+
+        border-bottom: 1px solid black;
     }
 
     .header-sub_container2 div{
         flex-grow: 0;
         display: flex;
         
-        
-        
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
         
-        flex-basis: 50%;
+        flex-basis: 25%;
         margin-right: 1px;
 
         justify-content: center;
     }
 
-    .download-app-header{
-        margin-left: 0px;
-    }
     .your-cart-header{
         border-left: 1px solid black;
         border-right: 1px solid black;
-    }
-    .account-header{
-        margin: 0px;
-    }
-    .account-dropdown{
-        margin-left: 0px;
+        height: 4vh;
     }
 
+    .news-header{
+        border-right: 1px solid black;
+        height: 4vh
+    }
+
+    .account-header{
+        border: 1px solid transparent;
+    }
     .header-sub_container2 img[alt="download app"]{
         
     
@@ -767,9 +805,43 @@ img[alt="drop down point right"]{
     
         max-width: 50px;
         max-height: 30px;
-        margin: 0px;
+    
     }
 
+    .welcome-banner-container {
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+
+    .welcome-banner-sub_container{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .FeastEase-welcome-banner{
+        font-family: 'Inter',sans-serif;
+        
+        color: white;
+        margin-left: 0px;
+        align-items: center;
+        justify-content: center;    
+        align-items: center;
+        
+    }
+    .E-welcome,.F-welcomer{
+        font-size: 7vw;
+    }
+    .FT-welcome{
+        font-size: 6vw;
+    }
+
+    .loginPop{
+        right: 2%;
+        width: 50vw;
+        height: 30vh;
+        font-size: 5vw;
+    }
 
     .lokasi_content{
         font-size: 10px;

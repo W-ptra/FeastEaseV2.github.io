@@ -25,7 +25,7 @@ function submit()
     }
     else{//input done sucessfully proceed further
         
-        var username = "aditya",password = "aditya123";
+        var username = "Aditya",password = "aditya123";
 
         if(input_username === username && input_password === password){
             alert("Selamat datang di feastEast")

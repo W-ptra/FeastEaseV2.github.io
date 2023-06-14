@@ -836,7 +836,9 @@ input[type="checkbox"] {
                     text-align: end;
                 }
 
-
+                .content_bayar{
+                    font-size: 3vw;
+                }
                 .catatan-titip_satpam{
                     
                     text-indent: 7vw;

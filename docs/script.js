@@ -80,4 +80,14 @@ function removeDate() {
     value = 0;
     valueElement.textContent = value;
   }
+
+
+let akunPop = document.getElementById("akunPop");
+
+function akunShow(){
+  akunPop.style.visibility = "visible";
+}
+function akunHidden(){
+  akunPop.style.visibility = "hidden";
+}
   

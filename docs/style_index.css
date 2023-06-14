@@ -185,6 +185,50 @@ a[href="login.html"]{
     font-size: 1.3vw;
 }
 
+.akunPop{
+    visibility: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'inter',sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    right: 2%;
+    top: 11%;
+    
+    width: 20vw;
+    height: 35vh;
+    z-index: 15;
+}
+.akun_split{
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+}
+.akun_split span{
+    font-size: 1.2vw;
+}
+.akunPop img{
+    width: 8vw;
+}
+
+.click_for{
+    visibility: hidden;
+    z-index: 11;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+
 /*                       welcome banner                   !!!!!!!!*/
 
 

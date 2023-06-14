@@ -308,12 +308,12 @@
                         </div>
     
                         <div class="cover_lanjut_bayar">
-                            <button class="lanjut_bayar bold" onclick="payment()">
-                                <a href="menu-list_responsive.html">
+                            <button class="lanjut_bayar bold" onclick="showPayment()">
+                                
                                     <span class="content_bayar">
                                         Lanjutkan Pembayaran
                                     </span>
-                                </a>
+                                
                             </button>
                         </div>
                         
@@ -322,6 +322,70 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="payment_container" id="payment">
+            <div class="payment">
+                <div class="pesanan_container">
+                    <div class="pesanan">
+                        <span class="l403D">
+                            Pesanan  #403DA081234567890
+                        </span>
+                        <div class="deskripsi">
+                            <span class="tiga">Rp. 36.000</span>
+                            <div class="tanpa">
+                                <span>Deskripsi</span>
+                                <span>Tanpa potongan harga</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="metode">
+                    <span>Pilih Metode Pembayaran</span>
+                </div>
+                <div class="checkbox">
+                    <div class="input_checkbox">
+                        <input type="checkbox" id="myCheckbox">
+                        <img src="./asset_responsive/payment.svg" alt="">
+                        <span>Credit or debit card (Visa / Mastercard / MIR)</span>
+                    </div>
+                    
+                    <div class="input_checkbox">
+                        <input type="checkbox" id="myCheckbox">
+                        <img src="./asset_responsive/ovo.svg" alt="">
+                        <span>OVO</span>
+                    </div>
+
+                    <div class="input_checkbox">
+                        <input type="checkbox" id="myCheckbox">
+                        <img src="./asset_responsive/gopay.svg" alt="">
+                        <span>Gopay</span>
+                    </div>
+
+                    <div class="input_checkbox">
+                        <input type="checkbox" id="myCheckbox">
+                        <img src="./asset_responsive/dana.svg" alt="">
+                        <span>Dana</span>
+                    </div>
+
+                    <div class="input_checkbox">
+                        <input type="checkbox" id="myCheckbox">
+                        <img src="./asset_responsive/bca.svg" alt="">
+                        <span>BCA Virtual Account</span>
+                    </div>
+
+                </div>
+
+                <div class="confirm">
+                    <button onclick="hidePayment()">
+                        <span>Konfirmasi Pemesanan</span>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="payment.js"></script>
 
     </body>
 

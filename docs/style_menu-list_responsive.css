@@ -28,11 +28,6 @@ a[href="checkout.html"]{
     align-items: center;
     justify-content: center;
 }
-a[href="login.html"]{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 /*      Header    Header    Header      Header      Header */
 .container-header{
@@ -61,8 +56,8 @@ a[href="login.html"]{
     
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 25px;
-    margin-right: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
 
     flex-grow: 0;
     flex-basis: 39%;
@@ -74,6 +69,7 @@ a[href="login.html"]{
 .Feast-header{
     font-weight: 100;
     color: #44B250;
+    margin-left: 2vw;
 }
 .Ease-header{
     font-weight: 1000;
@@ -182,7 +178,7 @@ a[href="login.html"]{
     display: flex;
     flex-direction: column;
     background-color: white;
-    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
     right: 2%;
     top: 11%;
@@ -605,7 +601,7 @@ img[alt="drop down point right"]{
     box-sizing: border-box;
 
     background-color: white;
-    min-height: 300px;
+    min-height: 200px;
 
     left: 0;
     right: 0;
@@ -735,8 +731,8 @@ img[alt="drop down point right"]{
         
         margin-top: 0.5vh;
         margin-bottom: 0.5vh;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
 
         left: 0px;
         right: 0px;
@@ -808,38 +804,18 @@ img[alt="drop down point right"]{
     
     }
 
-    .welcome-banner-container {
-        flex-direction: column;
+    .place_time-container{
         margin-top: 10vh;
-    }
-
-    .welcome-banner-sub_container{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .FeastEase-welcome-banner{
-        font-family: 'Inter',sans-serif;
-        
-        color: white;
-        margin-left: 0px;
-        align-items: center;
-        justify-content: center;    
-        align-items: center;
-        
-    }
-    .E-welcome,.F-welcomer{
-        font-size: 7vw;
-    }
-    .FT-welcome{
-        font-size: 6vw;
     }
 
     .loginPop{
         right: 2%;
         width: 50vw;
         height: 30vh;
-        font-size: 5vw;
+        
+    }
+    .loginPop span{
+        font-size: 2.5vw;
     }
 
     .lokasi_content{

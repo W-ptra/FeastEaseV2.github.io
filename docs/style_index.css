@@ -35,8 +35,8 @@ a{
     
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 25px;
-    margin-right: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
 
     flex-grow: 0;
     flex-basis: 39%;
@@ -48,6 +48,7 @@ a{
 .Feast-header{
     font-weight: 100;
     color: #44B250;
+    margin-left: 2vw;
 }
 .Ease-header{
     font-weight: 1000;
@@ -156,7 +157,7 @@ a[href="login.html"]{
     display: flex;
     flex-direction: column;
     background-color: white;
-    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
     right: 2%;
     top: 11%;
@@ -709,8 +710,8 @@ a[href="login.html"]{
         
         margin-top: 0.5vh;
         margin-bottom: 0.5vh;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
 
         left: 0px;
         right: 0px;
@@ -814,7 +815,10 @@ a[href="login.html"]{
         right: 2%;
         width: 50vw;
         height: 30vh;
-        font-size: 10vw;
+        
+    }
+    .loginPop span{
+        font-size: 2.5vw;
     }
 
     .easy-way-title-container{

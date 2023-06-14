@@ -16,10 +16,6 @@ function downloadImage() {
 }
 
 
-function payment(){
-  alert("Horeee terima kasih 🥳🥳🥳");
-}
-
 function registerDone(){
   alert("Selamat Anda Sudah Rerdaftar ✋😆🤚")
 }
